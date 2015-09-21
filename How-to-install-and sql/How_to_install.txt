@@ -1,0 +1,27 @@
+
+step 1) databse name : thehrm  (if you use  this databse than you don't have to touch sql file ,directly import from phpmyadmin
+                      if you create another database than edit sql file and change to line number 1, 2 to your database name  )
+
+step 2)  Head to /application/config/database.php   then change the paramater of line number 38, 39, 40 and 43 to meet your server configuration.
+
+step 3) head to super_admin/manage_admin.php and configure line number 13,14,15,16 to meet your configuration
+
+step 4) Upload file to root of your server . You are ready to access the system.
+
+
+super admin (1)
+http://thehrm.cf/super_admin/
+username:admin
+pass:123456
+
+admin   (Many) 
+usaername:admin
+pass:admin
+
+General Employe (Many)
+username:hari
+pass:hari
+
+Now you can create unlimited amount of admin and unlimited amount of employee account .
+
+
